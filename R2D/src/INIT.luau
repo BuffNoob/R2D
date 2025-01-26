@@ -6,4 +6,4 @@ local infStamina = ModuleTemplate.RegisterModule(
     InfStaminaModule.EnableModule, 
     InfStaminaModule.DisableModule
 )
-print(infStamina)
+print("Hello world!")
