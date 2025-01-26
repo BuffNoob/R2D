@@ -9,6 +9,7 @@ local InfiniteStamina = {}
 
 function InfiniteStamina.Disable()
     print("Disabled!")
+    isEnabled = false
 end    
 
 function InfiniteStamina.Enable()
