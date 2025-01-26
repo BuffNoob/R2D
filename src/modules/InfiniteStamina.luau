@@ -1,0 +1,1 @@
+return"Infinite stamina script"
