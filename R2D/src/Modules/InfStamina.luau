@@ -1,8 +1,8 @@
 local Players = game:GetService("Players")
 local localPlayer = Players.LocalPlayer
 local playerGui = localPlayer.PlayerGui
-local keycode = Enum.KeyCode.G
-local enabled = false
+local KEYCODE = Enum.KeyCode.G
+local isEnabled = false
 local connection = nil
 
 local InfiniteStamina = {}
@@ -40,12 +40,12 @@ function InfiniteStamina.Enable()
     end
 
     activate()
-    enabled = true
+    isEnabled = true
     connection = localPlayer.CharacterAdded:Connect(activate)
 end    
 
 function InfiniteStamina.IsEnabled()
-    if enabled then
+    if isEnabled then
         return true
     else
         return false
@@ -53,7 +53,7 @@ function InfiniteStamina.IsEnabled()
 end
 
 function InfiniteStamina.GetKeycode()
-    return keycode
+    return KEYCODE
 end
 
 return InfiniteStamina
