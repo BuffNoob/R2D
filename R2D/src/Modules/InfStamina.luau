@@ -53,7 +53,7 @@ function InfiniteStamina.IsEnabled()
     end
 end
 
-function InfiniteStamina.GetKeycode()
+function InfiniteStamina.GetKeyCode()
     return KEYCODE
 end
 
