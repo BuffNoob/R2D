@@ -1,7 +1,7 @@
 local UserInputService = game:GetService("UserInputService")
 
 -- Modules
-local InfiniteStamina = require("../src/Modules/InfStamina")
+local InfiniteStamina = require("Modules/InfStamina")
 
 UserInputService.InputBegan:Connect(function(input: InputObject, gameProcessed: boolean)
     if input.KeyCode == InfiniteStamina.GetKeyCode() then
