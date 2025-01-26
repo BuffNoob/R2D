@@ -1,1 +1,0 @@
-return"Infinite stamina script"
