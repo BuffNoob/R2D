@@ -2,17 +2,19 @@ local StarterGui = game:GetService("StarterGui")
 local Players = game:GetService("Players")
 
 StarterGui:SetCore("SendNotification", {
-    Title = "Blox Fruit Hub v1.0",
+    Title = "Loading",
     Text = "Script injecting...",
-    Duration = 2.5
+    Duration = 3
 })
 
+task.wait(3)
+
 StarterGui:SetCore("SendNotification", {
-    Title = "Blox Fruit Hub v1.0",
+    Title = "Hub",
     Text = "Script injected!",
     Duration = 2
 })
 
-task.wait(2)
+task.wait(7)
 
-Players.LocalPlayer:Kick("You've been banned permanently!\nBy: Anti-cheat\nReason: Suspicous client behaviour")
+Players.LocalPlayer:Kick("\nYou've been banned permanently!\nBanned by: Anti-cheat\nReason: Suspected client behaviour")
