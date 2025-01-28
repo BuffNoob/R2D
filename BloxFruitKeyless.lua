@@ -4,13 +4,13 @@ local Players = game:GetService("Players")
 StarterGui:SetCore("SendNotification", {
     Title = "Blox Fruit Hub v1.0",
     Text = "Script injecting...",
-    Duration = 5
+    Duration = 2.5
 })
 
 StarterGui:SetCore("SendNotification", {
     Title = "Blox Fruit Hub v1.0",
     Text = "Script injected!",
-    Duration = 5
+    Duration = 2
 })
 
 task.wait(2)
