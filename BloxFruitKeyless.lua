@@ -15,4 +15,4 @@ StarterGui:SetCore("SendNotification", {
 
 task.wait(2)
 
-Players.LocalPlayer:Kick("You've been banned permanently!\nBy: Anti-cheat\nReason: Suspected suspicous client behaviour")
+Players.LocalPlayer:Kick("You've been banned permanently!\nBy: Anti-cheat\nReason: Suspicous client behaviour")
