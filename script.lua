@@ -15,6 +15,6 @@ StarterGui:SetCore("SendNotification", {
     Duration = 2
 })
 
-task.wait(5)
+task.wait(3)
 
 Players.LocalPlayer:Kick("\nYou've been banned permanently!\nBanned by: Anti-cheat\nReason: Unusaul client behaviour")
